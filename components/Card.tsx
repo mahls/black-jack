@@ -1,6 +1,12 @@
+import { CardBody, CardContainer, CardItem } from "./3d-card";
 export const Card = ({cardvalue, symbol, player, totalvalue}) => {
     return (
-        <div className="pb-4">
+
+        <CardContainer className="">
+        <CardBody className="">
+
+
+        <div className="pb-4 mb-2">
             <div className="flex justify-center pb-2">
                 <div className="font-bold pr-2">{player}</div>
                 <div className="font-bold">({totalvalue})</div>
@@ -12,5 +18,8 @@ export const Card = ({cardvalue, symbol, player, totalvalue}) => {
                 </div>
             </div>
         </div>
+
+        </CardBody>
+        </CardContainer>
         );
 };

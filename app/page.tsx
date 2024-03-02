@@ -123,11 +123,6 @@ export default function Home() {
       <Card cardvalue={cardValueCPU} symbol={cardSymbolCPU} player={"CPU"} totalvalue={cpuTotal} />
       <Card cardvalue={cardValuePlayer} symbol={cardSymbolPlayer} player={"PLAYER"} totalvalue={playerTotal} />
       <div>
-        <Lottie
-          options={defaultOptions}
-          height={400}
-          width={400}
-        />
       </div>
       <HitButton hit={hit} />
       <StandButton stand={stand}/>
